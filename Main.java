@@ -6,12 +6,12 @@ class Main {
   String[] names = new String[15];
   //Above there is a String array of 15 int elements representing the 15 students
   Scanner scan = new Scanner(System.in);
-  //Above is the scanner to receive the student's name when imputed and assign said name to each element of the String array
+  //Above is the scanner to receive the student's name.
   
   for(int i=0; i < 15; i++){
     System.out.println("Student's name is ");
     names [i]= scan.next();
-  //
+  //Above is the For Loop, where there is a print statement asking for the student's name. There is also the scanner to receive the name and assign it an element in the String array.
 
   while(i>1){}
     System.out.println (names [i] +" sits in seat " + seatNumbers[i]);
