@@ -15,6 +15,7 @@ class Main {
 
   while(i>1){}
     System.out.println (names [i] +" sits in seat " + seatNumbers[i]);
+     //a While loop to print each element in the String array along with each element in the int array. It assigns the given student name an int value (aka a seat)
   }
   }
 }
